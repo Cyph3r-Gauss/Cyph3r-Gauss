@@ -1,0 +1,58 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#30060A"/>
+      <stop offset="100%" stop-color="#020001"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="32" fill="url(#bg)"/>
+
+  <!-- Gaussian curve (same positioning as before) -->
+  <path
+    d="M 64 260
+       C 160 260, 200 140, 256 140
+       C 312 140, 352 260, 448 260"
+    fill="none"
+    stroke="#f8fafc"
+    stroke-width="8"
+    stroke-linecap="round"/>
+
+  <!-- Axis -->
+  <line
+    x1="96"
+    y1="260"
+    x2="416"
+    y2="260"
+    stroke="#cbd5f5"
+    stroke-width="2"
+    opacity="0.45"/>
+
+  <!-- Username -->
+  <text
+    x="256"
+    y="330"
+    text-anchor="middle"
+    fill="#f8fafc"
+    font-family="monospace"
+    font-size="26"
+    letter-spacing="2">
+    Cyph3r_Gauss
+  </text>
+
+  <!-- Hex signature -->
+  <text
+    x="256"
+    y="365"
+    text-anchor="middle"
+    fill="#cbd5f5"
+    font-family="monospace"
+    font-size="18"
+    letter-spacing="2"
+    opacity="0.85">
+    0xBEEF
+  </text>
+
+</svg>
