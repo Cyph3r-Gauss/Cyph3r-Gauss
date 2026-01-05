@@ -1,0 +1,95 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="100%" stop-color="#010308"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+
+  <!-- Top dense hex dump wallpaper (13 lines) -->
+  <g font-family="monospace" font-size="20" fill="#c7d2fe" opacity="0.34">
+    <text x="48" y="100">0x00000000: 48 65 78 20 4D 65 6D 6F 72 79 20 44 75 6D 70 00</text>
+    <text x="48" y="130">0x00000010: 3F 80 00 00 40 00 00 00 40 40 00 00 41 20 00 00</text>
+    <text x="48" y="160">0x00000020: 41 A0 00 00 42 48 00 00 42 C8 00 00 43 48 00 00</text>
+    <text x="48" y="190">0x00000030: 43 C8 00 00 44 48 00 00 44 C8 00 00 45 48 00 00</text>
+    <text x="48" y="220">0x00000040: 45 C8 00 00 46 48 00 00 46 C8 00 00 47 48 00 00</text>
+    <text x="48" y="250">0x00000050: 47 C8 00 00 48 48 00 00 48 C8 00 00 49 48 00 00</text>
+    <text x="48" y="280">0x00000060: 49 C8 00 00 4A 48 00 00 4A C8 00 00 4B 48 00 00</text>
+    <text x="48" y="310">0x00000070: 4B C8 00 00 4C 48 00 00 4C C8 00 00 4D 48 00 00</text>
+    <text x="48" y="340">0x00000080: 4D C8 00 00 4E 48 00 00 4E C8 00 00 4F 48 00 00</text>
+    <text x="48" y="370">0x00000090: 4F C8 00 00 50 48 00 00 50 C8 00 00 51 48 00 00</text>
+    <text x="48" y="400">0x000000A0: 51 C8 00 00 52 48 00 00 52 C8 00 00 53 48 00 00</text>
+    <text x="48" y="430">0x000000B0: 53 C8 00 00 54 48 00 00 54 C8 00 00 55 48 00 00</text>
+    <text x="48" y="460">0x000000C0: 55 C8 00 00 56 48 00 00 56 C8 00 00 57 48 00 00</text>
+
+    <text x="48" y="780">0x0000BEEF: DE AD BE EF DE AD BE EF DE AD BE EF DE AD BE EF</text>
+    <text x="48" y="810">0x0000CAFE: FE ED FA CE FE ED FA CE FE ED FA CE FE ED FA CE</text>
+  </g>
+
+  <!-- Right-side vertical hex column -->
+  <g font-family="monospace" font-size="18" fill="#a5b4fc" opacity="0.45">
+    <text x="760" y="140">0x3F800000</text>
+    <text x="760" y="180">0x40000000</text>
+    <text x="760" y="220">0x40400000</text>
+    <text x="760" y="260">0x41200000</text>
+    <text x="760" y="300">0x41A00000</text>
+    <text x="760" y="340">0x42480000</text>
+    <text x="760" y="380">0x42C80000</text>
+    <text x="760" y="420">0x43480000</text>
+  </g>
+
+  <!-- Gaussian curve -->
+  <path
+    d="M 120 560
+       C 300 560, 360 300, 512 300
+       C 664 300, 724 560, 904 560"
+    fill="none"
+    stroke="#f8fafc"
+    stroke-width="7"
+    stroke-linecap="round"
+    opacity="0.95"/>
+
+  <!-- Axis -->
+  <line x1="160" y1="560" x2="880" y2="560"
+        stroke="#e5e7eb"
+        stroke-width="1"
+        opacity="0.45"/>
+
+  <!-- Username -->
+  <text
+    x="512"
+    y="740"
+    text-anchor="middle"
+    fill="#f8fafc"
+    font-family="JetBrains Mono, Fira Code, Consolas, monospace"
+    font-size="62"
+    letter-spacing="3">
+    Cyph3r_Gauss
+  </text>
+
+  <!-- Clean background strip ONLY for tagline -->
+  <rect
+    x="200"
+    y="760"
+    width="624"
+    height="56"
+    fill="#02040a"
+    opacity="0.85"
+    rx="6"/>
+
+  <!-- Tagline -->
+  <text
+    x="512"
+    y="798"
+    text-anchor="middle"
+    fill="#cbd5f5"
+    font-family="JetBrains Mono, Fira Code, Consolas, monospace"
+    font-size="28"
+    letter-spacing="2">
+    Offensive Security | Ethical Hacker
+  </text>
+
+</svg>
