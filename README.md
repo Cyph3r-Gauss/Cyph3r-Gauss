@@ -41,3 +41,5 @@
 Ouvert aux opportunités de collaboration en cybersécurité / open-source. Écrivez-moi pour toute proposition.
 
 ---
+
+### 📜 Licences
