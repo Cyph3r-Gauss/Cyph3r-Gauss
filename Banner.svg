@@ -1,12 +1,16 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="900" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#050816"/>
-      <stop offset="100%" stop-color="#010308"/>
-    </linearGradient>
-  </defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <!-- Haut : noir avec rouge clairement perceptible -->
+    <stop offset="0%" stop-color="#30060A"/>
+    <!-- Milieu : transition sombre rouge/noir -->
+    <stop offset="50%" stop-color="#150406"/>
+    <!-- Bas : quasi noir absolu -->
+    <stop offset="100%" stop-color="#020001"/>
+  </linearGradient>
+</defs>
   <rect width="1024" height="1024" fill="url(#bg)"/>
 
   <!-- Top dense hex dump wallpaper (13 lines) -->
@@ -25,8 +29,8 @@
     <text x="48" y="430">0x000000B0: 53 C8 00 00 54 48 00 00 54 C8 00 00 55 48 00 00</text>
     <text x="48" y="460">0x000000C0: 55 C8 00 00 56 48 00 00 56 C8 00 00 57 48 00 00</text>
 
-    <text x="48" y="780">0x0000BEEF: DE AD BE EF DE AD BE EF DE AD BE EF DE AD BE EF</text>
-    <text x="48" y="810">0x0000CAFE: FE ED FA CE FE ED FA CE FE ED FA CE FE ED FA CE</text>
+    <text x="48" y="850">0x0000BEEF: DE AD BE EF DE AD BE EF DE AD BE EF DE AD BE EF</text>
+    <text x="48" y="880">0x0000CAFE: FE ED FA CE FE ED FA CE FE ED FA CE FE ED FA CE</text>
   </g>
 
   <!-- Right-side vertical hex column -->
@@ -70,7 +74,7 @@
     Cyph3r_Gauss
   </text>
 
-  <!-- Clean background strip ONLY for tagline -->
+  <!-- Clean background strip ONLY for tagline 
   <rect
     x="200"
     y="760"
@@ -78,7 +82,7 @@
     height="56"
     fill="#02040a"
     opacity="0.85"
-    rx="6"/>
+    rx="6"/>-->
 
   <!-- Tagline -->
   <text
